@@ -1,7 +1,6 @@
-let baseurl = "http://www.andyglover.dev/gifs"
-let gifname;
-
+const baseurl = "http://www.andyglover.dev/gifs"
 const gifLink = document.querySelector('#gifLink');
+const gifname = gifLink.innerText;
 const gifContainer = document.querySelector('#gifContainer');
 
 function updateImgSrc(baseurl,gifname) {
