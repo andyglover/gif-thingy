@@ -1,10 +1,13 @@
-const baseurl = "http://www.andyglover.dev/gifs"
-const gifLink = document.querySelector('#gifLink');
-const gifname = gifLink.innerText;
+const baseURL = "./gifs"
+const gifLinks = document.querySelectorAll('#gifLink');
 const gifContainer = document.querySelector('#gifContainer');
 
-function updateImgSrc(baseurl,gifname) {
-    gifContainer.setAttribute('src', `${baseurl}/${gifname}.gif`);
+
+function updateImgSrc() {
+    const gifname = this.innerText;
+    gifContainer.setAttribute('src', `${baseURL}/${gifname}.gif`);
 }
 
-gifLink.addEventListener('click', updateImgSrc(baseurl,gifname));
+gifLinks.forEach((gifLink) => {
+    gifLink.addEventListener('click', updateImgSrc);
+});
