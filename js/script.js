@@ -1,11 +1,8 @@
 const baseURL = "./gifs"
 const gifLinks = document.querySelectorAll('#gifLink');
 const gifContainer = document.querySelector('#gifContainer');
-
-
 const gifForm = document.querySelector('#gifForm');
 const gifInput = document.querySelector("#gifInput");
-
 
 function updateImgSrc(gifName) {
     console.log(gifName);
@@ -20,13 +17,7 @@ gifLinks.forEach((gifLink) => {
     );
 });
 
-gifFormButton.addEventListener(
-    'click', () => {
-        updateImgSrc(gifInput.value);
-    }
-    );
-
-    gifForm.addEventListener('submit',(e)=>{
-        e.preventDefault();
-        updateImgSrc(gifInput.value);
-    });
+gifForm.addEventListener('submit',(e) => {
+    e.preventDefault();
+    updateImgSrc(gifInput.value);
+});
