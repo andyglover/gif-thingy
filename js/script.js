@@ -25,3 +25,8 @@ gifFormButton.addEventListener(
         updateImgSrc(gifInput.value);
     }
     );
+
+    gifForm.addEventListener('submit',(e)=>{
+        e.preventDefault();
+        updateImgSrc(gifInput.value);
+    });
