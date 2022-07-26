@@ -8,6 +8,7 @@ const gifInput = document.querySelector("#gifInput");
 
 
 function updateImgSrc(gifName) {
+    console.log(gifName);
     gifContainer.setAttribute('src', `${baseURL}/${gifName}.gif`);
 }
 
@@ -19,8 +20,8 @@ gifLinks.forEach((gifLink) => {
     );
 });
 
-gifForm.addEventListener(
-    'submit', () => {
+gifFormButton.addEventListener(
+    'click', () => {
         updateImgSrc(gifInput.value);
     }
     );
