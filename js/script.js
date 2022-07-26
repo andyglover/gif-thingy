@@ -3,11 +3,24 @@ const gifLinks = document.querySelectorAll('#gifLink');
 const gifContainer = document.querySelector('#gifContainer');
 
 
-function updateImgSrc() {
-    const gifname = this.innerText;
-    gifContainer.setAttribute('src', `${baseURL}/${gifname}.gif`);
+const gifForm = document.querySelector('#gifForm');
+const gifInput = document.querySelector("#gifInput");
+
+
+function updateImgSrc(gifName) {
+    gifContainer.setAttribute('src', `${baseURL}/${gifName}.gif`);
 }
 
 gifLinks.forEach((gifLink) => {
-    gifLink.addEventListener('click', updateImgSrc);
+    gifLink.addEventListener(
+        'click', () => {
+            updateImgSrc(gifLink.innerText);
+        }
+    );
 });
+
+gifForm.addEventListener(
+    'submit', () => {
+        updateImgSrc(gifInput.value);
+    }
+    );
