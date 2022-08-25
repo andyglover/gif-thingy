@@ -7,7 +7,7 @@ A thingy to load up a GIF for copying to the clipboard, so you can paste it in a
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS
+**Tech used:** HTML, CSS, JavaScript
 
 You can fork this! How to use it:
 1. Put your GIFs in the "gifs" directory
