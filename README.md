@@ -31,8 +31,12 @@ This project gave me some good practice with:
 ## Examples:
 Here's a few more repositories of mine you might like to check out:
 
-**Rock Paper Scissors:** https://github.com/andyglover/odin-rock-paper-scissors
-
-**GIF Thingy:** https://github.com/andyglover/gif-thingy
+**ANDYGLOVER.DEV:** https://github.com/andyglover/andyglover.dev
 
 **Calculator:** https://github.com/andyglover/odin-calculator
+
+**Rock Paper Scissors:** https://github.com/andyglover/odin-rock-paper-scissors
+
+**Admin Dashboard:** https://github.com/andyglover/odin-project-admin-dashboard
+
+**ANDYGLOVER.IO:** https://github.com/andyglover/andyglover.github.io
