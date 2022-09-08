@@ -31,12 +31,12 @@ This project gave me some good practice with:
 ## Examples:
 Here's a few more repositories of mine you might like to check out:
 
-**ANDYGLOVER.DEV:** https://github.com/andyglover/andyglover.dev
+**Admin Dashboard:** https://github.com/andyglover/odin-project-admin-dashboard
 
 **Calculator:** https://github.com/andyglover/odin-calculator
 
+**Library:** https://github.com/andyglover/odin-project-library
+
 **Rock Paper Scissors:** https://github.com/andyglover/odin-rock-paper-scissors
 
-**Admin Dashboard:** https://github.com/andyglover/odin-project-admin-dashboard
-
-**ANDYGLOVER.IO:** https://github.com/andyglover/andyglover.github.io
+**Tic-Tac-Toe:** https://github.com/andyglover/odin-project-tictactoe
